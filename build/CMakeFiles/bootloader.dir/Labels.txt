@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+/Users/clementtongpersonal/Desktop/Programming/2022/ESP32learn/esp-learn-intro-logging/build/CMakeFiles/bootloader
+/Users/clementtongpersonal/Desktop/Programming/2022/ESP32learn/esp-learn-intro-logging/build/CMakeFiles/bootloader.rule
+/Users/clementtongpersonal/Desktop/Programming/2022/ESP32learn/esp-learn-intro-logging/build/CMakeFiles/bootloader-complete.rule
+/Users/clementtongpersonal/Desktop/Programming/2022/ESP32learn/esp-learn-intro-logging/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+/Users/clementtongpersonal/Desktop/Programming/2022/ESP32learn/esp-learn-intro-logging/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+/Users/clementtongpersonal/Desktop/Programming/2022/ESP32learn/esp-learn-intro-logging/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+/Users/clementtongpersonal/Desktop/Programming/2022/ESP32learn/esp-learn-intro-logging/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+/Users/clementtongpersonal/Desktop/Programming/2022/ESP32learn/esp-learn-intro-logging/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+/Users/clementtongpersonal/Desktop/Programming/2022/ESP32learn/esp-learn-intro-logging/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+/Users/clementtongpersonal/Desktop/Programming/2022/ESP32learn/esp-learn-intro-logging/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule

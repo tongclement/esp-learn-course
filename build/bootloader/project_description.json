@@ -1,0 +1,20 @@
+{
+    "project_name":       "bootloader",
+    "project_path":       "/Users/clementtongpersonal/esp/esp-idf/components/bootloader/subproject",
+    "build_dir":          "/Users/clementtongpersonal/Desktop/Programming/2022/ESP32learn/esp-learn-intro-logging/build/bootloader",
+    "config_file":        "/Users/clementtongpersonal/Desktop/Programming/2022/ESP32learn/esp-learn-intro-logging/sdkconfig",
+    "config_defaults":    "",
+    "app_elf":            "bootloader.elf",
+    "app_bin":            "bootloader.bin",
+    "git_revision":       "v4.3.3-dirty",
+    "target":             "esp32",
+    "phy_data_partition": "",
+    "monitor_baud" :      "115200",
+    "monitor_toolprefix": "xtensa-esp32-elf-",
+    "config_environment" : {
+        "COMPONENT_KCONFIGS" : "/Users/clementtongpersonal/esp/esp-idf/components/efuse/Kconfig;/Users/clementtongpersonal/esp/esp-idf/components/esp32/Kconfig;/Users/clementtongpersonal/esp/esp-idf/components/esp_common/Kconfig;/Users/clementtongpersonal/esp/esp-idf/components/esp_system/Kconfig;/Users/clementtongpersonal/esp/esp-idf/components/log/Kconfig;/Users/clementtongpersonal/esp/esp-idf/components/newlib/Kconfig;/Users/clementtongpersonal/esp/esp-idf/components/spi_flash/Kconfig",
+        "COMPONENT_KCONFIGS_PROJBUILD" : "/Users/clementtongpersonal/esp/esp-idf/components/bootloader/Kconfig.projbuild;/Users/clementtongpersonal/esp/esp-idf/components/esptool_py/Kconfig.projbuild;/Users/clementtongpersonal/esp/esp-idf/components/partition_table/Kconfig.projbuild"
+    },
+    "build_components" : [ "bootloader", "bootloader_support", "efuse", "esp32", "esp_common", "esp_hw_support", "esp_rom", "esp_system", "esptool_py", "hal", "log", "main", "micro-ecc", "newlib", "partition_table", "soc", "spi_flash", "xtensa", "" ],
+    "build_component_paths" : [ "/Users/clementtongpersonal/esp/esp-idf/components/bootloader", "/Users/clementtongpersonal/esp/esp-idf/components/bootloader_support", "/Users/clementtongpersonal/esp/esp-idf/components/efuse", "/Users/clementtongpersonal/esp/esp-idf/components/esp32", "/Users/clementtongpersonal/esp/esp-idf/components/esp_common", "/Users/clementtongpersonal/esp/esp-idf/components/esp_hw_support", "/Users/clementtongpersonal/esp/esp-idf/components/esp_rom", "/Users/clementtongpersonal/esp/esp-idf/components/esp_system", "/Users/clementtongpersonal/esp/esp-idf/components/esptool_py", "/Users/clementtongpersonal/esp/esp-idf/components/hal", "/Users/clementtongpersonal/esp/esp-idf/components/log", "/Users/clementtongpersonal/esp/esp-idf/components/bootloader/subproject/main", "/Users/clementtongpersonal/esp/esp-idf/components/bootloader/subproject/components/micro-ecc", "/Users/clementtongpersonal/esp/esp-idf/components/newlib", "/Users/clementtongpersonal/esp/esp-idf/components/partition_table", "/Users/clementtongpersonal/esp/esp-idf/components/soc", "/Users/clementtongpersonal/esp/esp-idf/components/spi_flash", "/Users/clementtongpersonal/esp/esp-idf/components/xtensa", "" ]
+}
