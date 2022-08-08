@@ -1,5 +1,4 @@
-# Blink Example
+# code written when following the learnesp32.com course
 
-Starts a FreeRTOS task to blink an LED
-
-See the README.md file in the upper level 'examples' directory for more information about examples.
+The following is the code produced when following the learnesp32.com course on using the ESP-IDF embeded programming library, based on FreeRTOS
+ 
