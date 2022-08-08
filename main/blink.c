@@ -5,23 +5,28 @@
 #include "rom/gpio.h"
 #include "sdkconfig.h"
 #include "esp_log.h"
+#include <string.h>
 
-#define BLINK_PIN CONFIG_BLINK_GPIO
-#define TAG "BLINK ESPLEARN"
+#define TAG "KEYBOARD INPUT"
 /* Can use project configuration menu (idf.py menuconfig) to choose the GPIO to blink,
    or you can edit the following line and set a number here.
 */
 
 void app_main(void)
 {
-    gpio_reset_pin(BLINK_PIN);
-    gpio_pad_select_gpio(BLINK_PIN);
-    gpio_set_direction(BLINK_PIN,GPIO_MODE_OUTPUT);
-    int isOn=0;
-    while(1) {
-        isOn = !isOn;
-        gpio_set_level(BLINK_PIN,isOn);
-        vTaskDelay(1000/portTICK_RATE_MS);  
-        ESP_LOGI(TAG,"changing LED");
+    char c = 0;
+    char str[100];
+    memset(str,0,sizeof(str));
+    while(c!='\n')
+    {
+        c = getchar();
+        if (c != 0xff) //if no character is pressed, it will be 0xff , this is a non blocking function
+        {
+            str[strlen(str)] = c;
+            printf("%c",c);
+        }
+        vTaskDelay(100/portTICK_RATE_MS);
     }
+
+    printf("you typed %s\n",str);
 }
