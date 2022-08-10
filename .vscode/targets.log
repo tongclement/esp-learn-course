@@ -6,22 +6,15 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # PARTICULAR PURPOSE.
 
 # This program built for i386-apple-darwin11.3.0
- 
-Makefile:8: /make/project.mk: No such file or directory
-make: *** No rule to make target `/make/project.mk'.  Stop.
 
-
-# Make data base, printed on Sun Aug  7 16:34:49 2022
+# Make data base, printed on Wed Aug 10 16:44:50 2022
 
 # Variables
 
 # automatic
 <D = $(patsubst %/,%,$(dir $<))
- 
 # automatic
 ?F = $(notdir $?)
-# environment
-PYTHONUNBUFFERED = 0
 # automatic
 ?D = $(patsubst %/,%,$(dir $?))
 # automatic
@@ -75,7 +68,7 @@ VSCODE_CODE_CACHE_PATH = /Users/clementtongpersonal/Library/Application Support/
 # environment
 LOGNAME = clementtongpersonal
 # environment
-APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
 # environment
 CONDA_PROMPT_MODIFIER = (base) 
 # environment
@@ -150,8 +143,6 @@ CONDA_PYTHON_EXE = /Users/clementtongpersonal/opt/anaconda3/bin/python
 SUFFIXES := 
 # environment
 _CE_M = 
-# environment
-IDF_TARGET = esp32
 # default
 .INCLUDE_DIRS = /usr/local/include
 # environment
@@ -159,14 +150,13 @@ MAKELEVEL := 0
 # environment
 CONDA_PREFIX = /Users/clementtongpersonal/opt/anaconda3
 # environment
-VSCODE_PID = 4289
- 
+VSCODE_PID = 66483
 # environment
 _CE_CONDA = 
 # environment
 LANG = C
 # variable set hash-table stats:
-# Load=74/1024=7%, Rehash=0, Collisions=2/96=2%
+# Load=72/1024=7%, Rehash=0, Collisions=2/94=2%
 
 # Pattern-specific Variable Values
 
@@ -174,9 +164,9 @@ LANG = C
 
 # Directories
 
-# . (device 16777229, inode 327912727): 14 files, no impossibilities.
+# . (device 16777229, inode 327912727): 15 files, no impossibilities.
 
-# 14 files, no impossibilities in 1 directories.
+# 15 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -230,6 +220,9 @@ Makefile:
 # strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
 # strcache free: total = 4070 / max = 4070 / min = 4070 / avg = 4070
 
-# Finished Make data base on Sun Aug  7 16:34:49 2022
+# Finished Make data base on Wed Aug 10 16:44:50 2022
 
  
+Makefile:8: /make/project.mk: No such file or directory
+make: *** No rule to make target `/make/project.mk'.  Stop.
+
